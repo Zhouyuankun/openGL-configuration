@@ -26,15 +26,15 @@ STEP 1 CMake
 
 Download the module and unzip it, then
 
-![](https://raw.githubusercontent.com/Zhouyuankun/openGL-configuration/main/res/pic1.jpg)
+![](https://github.com/Zhouyuankun/openGL-configuration/blob/main/res/pic1.jpg?raw=true)
 
-![](C:\Users\Celeglow%20Zhou\Desktop\OpenGL%20Build%20Workspace\pic2.jpg)
+![](https://github.com/Zhouyuankun/openGL-configuration/blob/main/res/pic2.jpg?raw=true)
 
 STEP 2 Compile 
 
 When you press "generate" and "open project", you will be directed to the visual studio,then
 
-![](C:\Users\Celeglow%20Zhou\Desktop\OpenGL%20Build%20Workspace\pic3.jpg)
+![](https://github.com/Zhouyuankun/openGL-configuration/blob/main/res/pic3.jpg?raw=true)
 
 STEP 3 Configuration
 
@@ -44,29 +44,29 @@ For GLFW, you only need **glfw3.lib**
 
 For ASSIMP, you need both **assimp-vc142-mtd.lib** and **assimp-vc142-mtd.dll** 
 
-![](C:\Users\Celeglow%20Zhou\Desktop\OpenGL%20Build%20Workspace\pic4.jpg)
+![](https://github.com/Zhouyuankun/openGL-configuration/blob/main/res/pic4.jpg?raw=true)
 
 Open your openGL project and configure the include and lib
 
-![](C:\Users\Celeglow%20Zhou\Desktop\OpenGL%20Build%20Workspace\pic5.jpg)
+![](https://github.com/Zhouyuankun/openGL-configuration/blob/main/res/pic5.jpg?raw=true)
 
-![](C:\Users\Celeglow%20Zhou\Desktop\OpenGL%20Build%20Workspace\pic6.jpg)
+![](https://github.com/Zhouyuankun/openGL-configuration/blob/main/res/pic6.jpg?raw=true)
 
-![](C:\Users\Celeglow%20Zhou\Desktop\OpenGL%20Build%20Workspace\pic7.jpg)
+![](https://github.com/Zhouyuankun/openGL-configuration/blob/main/res/pic7.jpg?raw=true)
 
 The "include" folder is in the module folder-> include(maybe the module binary folder you CMaked has an include folder as well, you at better combine these two include folders)
 
-![](C:\Users\Celeglow%20Zhou\Desktop\OpenGL%20Build%20Workspace\pic8.jpg)
+![](https://github.com/Zhouyuankun/openGL-configuration/blob/main/res/pic8.jpg?raw=true)
 
 After configured include, next configure lib
 
-![](C:\Users\Celeglow%20Zhou\Desktop\OpenGL%20Build%20Workspace\pic9.jpg)
+![](https://github.com/Zhouyuankun/openGL-configuration/blob/main/res/pic9.jpg?raw=true)
 
-![](C:\Users\Celeglow%20Zhou\Desktop\OpenGL%20Build%20Workspace\pic10.jpg)
+![](https://github.com/Zhouyuankun/openGL-configuration/blob/main/res/pic10.jpg?raw=true)
 
 For .dll file you need, you have to put it in your project .exe same directory
 
-![](C:\Users\Celeglow%20Zhou\Desktop\OpenGL%20Build%20Workspace\pic11.jpg)
+![](https://github.com/Zhouyuankun/openGL-configuration/blob/main/res/pic11.jpg?raw=true)
 
 OK ! That's all for the first type !
 
@@ -78,7 +78,7 @@ For <u>GLAD</u>, after your finished your online service configuration(you would
 
 Add glad.c (/glad/src/glad.c) file to your project(it means put glad.c in the same dir as your project main.cpp, and make it visiable on your visual studio). 
 
-![](C:\Users\Celeglow%20Zhou\Desktop\OpenGL%20Build%20Workspace\pic12.jpg)
+![](https://github.com/Zhouyuankun/openGL-configuration/blob/main/res/pic12.jpg?raw=true)
 
 Configure "include" folder(/glad/include) to your project Include path as have mentioned.
 
@@ -90,11 +90,11 @@ OK! That's all for the second type !
 
 Check whether you forget to configure something
 
-![](C:\Users\Celeglow%20Zhou\Desktop\OpenGL%20Build%20Workspace\pic13.jpg)
+![](https://github.com/Zhouyuankun/openGL-configuration/blob/main/res/pic13.jpg?raw=true)
 
-![](C:\Users\Celeglow%20Zhou\Desktop\OpenGL%20Build%20Workspace\pic14.jpg)
+![](https://github.com/Zhouyuankun/openGL-configuration/blob/main/res/pic14.jpg?raw=true)
 
-![](C:\Users\Celeglow%20Zhou\Desktop\OpenGL%20Build%20Workspace\pic15.jpg)
+![](https://github.com/Zhouyuankun/openGL-configuration/blob/main/res/pic15.jpg?raw=true)
 
 Tips:
 
@@ -125,7 +125,7 @@ STEP 1 CMake
 
 Use the defalut setting(Unix Makefiles) for generator
 
-![](/Users/celeglow/Desktop/OpenGL%20Build%20Workspace/pic16.jpg)
+![](https://github.com/Zhouyuankun/openGL-configuration/blob/main/res/pic16.jpg?raw=true)
 
 STEP 2 Compile
 
@@ -143,7 +143,7 @@ For ASSIMP, you only need  **libassimp.5.0.0.dylib**
 
 Configure the head file path and lib file path
 
-![](/Users/celeglow/Desktop/OpenGL%20Build%20Workspace/pic17.jpg)
+![](https://github.com/Zhouyuankun/openGL-configuration/blob/main/res/pic17.jpg?raw=true)
 
 In Build Phases-> Link Binary With Libraries :
 
@@ -161,7 +161,7 @@ Add these
 
 - libassimp.5.0.0.dylib
 
-![](/Users/celeglow/Desktop/OpenGL%20Build%20Workspace/pic18.jpg)
+![](https://github.com/Zhouyuankun/openGL-configuration/blob/main/res/pic18.jpg?raw=true)
 
 OK ! That's all for the first type !
 
