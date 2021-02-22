@@ -26,7 +26,7 @@ STEP 1 CMake
 
 Download the module and unzip it, then
 
-![](C:\Users\Celeglow%20Zhou\Desktop\OpenGL%20Build%20Workspace\pic1.jpg)
+![](https://raw.githubusercontent.com/Zhouyuankun/openGL-configuration/main/res/pic1.jpg)
 
 ![](C:\Users\Celeglow%20Zhou\Desktop\OpenGL%20Build%20Workspace\pic2.jpg)
 
