@@ -109,7 +109,8 @@ Tips:
 
 3. Visual studio don't recognize .obj file(3D file), don't add it to your **project resources**, only add other resource files except for that. You can specify the full file path when you need load that .obj file.
 
-## For MacOS User:
+## For MacOS User(X86 && Apple Silicon):
+## X86
 
 *Xcode as an example*
 
@@ -129,7 +130,7 @@ Use the defalut setting(Unix Makefiles) for generator
 
 STEP 2 Compile
 
-Simply press "generate", the 
+Simply press "generate", the files you need are done.
 
 STEP 3 Configuration
 
@@ -191,3 +192,18 @@ Tips:
 ```
 
 2. The char * variable of MacOS path should be written as full path even if it is put in the same dir as main.cpp, or the file can not be found.
+
+## Apple Silicon
+```
+brew install glfw   // libglfw3.dylib found in /opt/homebrew/lib, [Include folder] found in /opt/homebrew/include
+brew install assimp // same as glfw
+```
+The remains are same as X86, except you should put all the "include" folders in /opt/homebrew/include, all the lib files in /opt/homebrew/lib. Configure the head file path and lib file path as
+
+![](https://github.com/Zhouyuankun/openGL-configuration/blob/main/res/pic18.jpg?raw=true)
+
+Tips:
+if the .dylib of glfw is not signatured you need to use your account to sign it. (unsigned dylib is not allowed to use when you code runs)
+
+Anytime you get lost, you should see steps on X86 to find what you have missed  
+
