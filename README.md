@@ -200,7 +200,7 @@ brew install assimp // same as glfw
 ```
 The remains are same as X86, except you should put all the "include" folders in /opt/homebrew/include, all the lib files in /opt/homebrew/lib. Configure the head file path and lib file path as
 
-![](https://github.com/Zhouyuankun/openGL-configuration/blob/main/res/pic19.jpg?raw=true)
+![](https://github.com/Zhouyuankun/openGL-configuration/blob/main/res/pic19.png?raw=true)
 
 Tips:
 if the .dylib of glfw is not signatured you need to use your account to sign it. (unsigned dylib is not allowed to use when you code runs)
